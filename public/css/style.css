@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    padding: 50px 0;
+}
+.main-sidebar {
+    border-right: 1px solid #ccc;
+    padding: 15px;
+    margin-right: 10px;
+    box-shadow: 1px -9px 16px 7px #ccc;
+    height: 100vh;
+    /* border-radius: 20px; */
+}
+.all-menu button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+button.file-name {
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 4px;
+}
+.create {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.file-opration label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.file-opration .create input{
+   padding: 5px;
+   margin: 7px 0 7px 0;
+}
+.file-opration .create button{
+    width: 100px;
+    padding: 0px;
+    margin: 7px;
+ }
+ .delet button{
+    width: 100%;
+ }
+ .all-menu button i {
+    margin-right: 10px;
+ }
